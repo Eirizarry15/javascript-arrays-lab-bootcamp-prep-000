@@ -34,7 +34,7 @@ function removeFirstKitten(name){
 }
 
 function removeLastKitten(name){
-  var newKittens= [...kittens]
+  var newKittens = [...kittens]
 newKittens.pop()
 return newKittens
 }
